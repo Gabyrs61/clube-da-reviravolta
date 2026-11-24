@@ -132,10 +132,12 @@ nav a:hover {
 /* CAPAS DOS LIVROS */
 
 .livro img {
-    width: 100%;
-    height: 290px;
+    width: 180px;
+    height: 260px;
     object-fit: contain;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
+    display: block;
+    box-shadow: 3px 4px 12px #00000025;
 }
 
 .livro span {

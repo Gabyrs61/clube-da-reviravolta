@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,78 +13,128 @@
 
 <body>
 
+    <!-- CABEÇALHO -->
     <header>
         <h1>Clube da Reviravolta</h1>
         <p>Todo livro esconde um segredo...</p>
     </header>
 
-         
-<nav>
-    <a href="#inicio">Início</a>
-    <a href="#sobre">Sobre o Clube</a>
-    <a href="#leituras">Leituras</a>
-    <a href="#encontros">Encontros</a>
-</nav>
+    <!-- MENU -->
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre o Clube</a>
+        <a href="#leituras">Leituras</a>
+        <a href="#encontros">Encontros</a>
+    </nav>
 
-
-
+    <!-- CONTEÚDO PRINCIPAL -->
     <main>
 
-<main>
+        <!-- INÍCIO -->
+        <section id="inicio" class="destaque">
 
-    <!-- INÍCIO -->
-    <section id="inicio" class="destaque">
-        <p class="subtitulo">CLUBE LITERÁRIO DE SUSPENSE</p>
+            <p class="subtitulo">
+                CLUBE LITERÁRIO DE SUSPENSE
+            </p>
 
-        <h2>Toda história esconde uma reviravolta.</h2>
+            <h2>Toda história esconde uma reviravolta.</h2>
 
-        <p>
-            Entre páginas, mistérios e teorias,
-            encontramos pessoas que compartilham
-            a mesma paixão: histórias que nos surpreendem.
-        </p>
-    </section>
+            <p>
+                Entre páginas, mistérios e teorias,
+                encontramos pessoas que compartilham
+                a mesma paixão: histórias que nos surpreendem.
+            </p>
 
-
-    <!-- SOBRE O CLUBE -->
-    <section id="sobre" class="conteudo">
-        <h2>Por trás de cada página...</h2>
-
-        <p>
-            O Clube da Reviravolta nasceu da paixão
-            por suspense, mistérios e histórias
-            que permanecem conosco mesmo depois
-            da última página.
-        </p>
-    </section>
+        </section>
 
 
-    <!-- LEITURAS -->
-    <section id="leituras" class="conteudo">
-        <h2>Nossas Leituras</h2>
+        <!-- SOBRE O CLUBE -->
+        <section id="sobre" class="conteudo">
 
-        <p>
-            Cada mês, uma nova história.
-            Cada leitura, uma nova descoberta.
-        </p>
-    </section>
+            <h2>Por trás de cada página...</h2>
+
+            <p>
+                O Clube da Reviravolta nasceu da paixão
+                por suspense, mistérios e histórias
+                que permanecem conosco mesmo depois
+                da última página.
+            </p>
+
+        </section>
 
 
-    <!-- ENCONTROS -->
-    <section id="encontros" class="conteudo">
-        <h2>Onde as histórias se encontram</h2>
+        <!-- LEITURAS -->
+        <section id="leituras" class="livros">
 
-        <p>
-            Nossos encontros são momentos de conversa,
-            descobertas, teorias e muitas reviravoltas.
-        </p>
-    </section>
+            <p class="subtitulo">
+                NOSSO UNIVERSO LITERÁRIO
+            </p>
 
-</main>
+            <h2>Entre páginas e mistérios</h2>
 
-       
+            <p class="descricao-livros">
+                Histórias que desafiam nossas certezas
+                e deixam perguntas mesmo depois da última página.
+            </p>
+
+            <div class="grade-livros">
+
+                <!-- PRIMEIRO LIVRO -->
+                <article class="livro">
+
+                    <span class="etiqueta">
+                        Primeira leitura do clube
+                    </span>
+
+                    <img
+                        src="img/estranha-na-cama.jpg"
+                        alt="Capa de A Estranha na Cama"
+                    >
+
+                    <h3>A Estranha na Cama</h3>
+                    <p>Raphael Montes</p>
+
+                </article>
+
+
+                <!-- SEGUNDO LIVRO -->
+                <article class="livro">
+
+                    <span class="etiqueta">
+                        Leitura de novembro
+                    </span>
+
+                    <img
+                        src="img/o-vilarejo.jpg"
+                        alt="Capa de O Vilarejo"
+                    >
+
+                    <h3>O Vilarejo</h3>
+                    <p>Raphael Montes</p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ENCONTROS -->
+        <section id="encontros" class="conteudo">
+
+            <h2>Onde as histórias se encontram</h2>
+
+            <p>
+                Nossos encontros são momentos de conversa,
+                descobertas, teorias e muitas reviravoltas.
+            </p>
+
+        </section>
+
     </main>
 
+    <!-- JAVASCRIPT -->
     <script src="script.js"></script>
+
 </body>
 </html>

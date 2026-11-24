@@ -1,0 +1,129 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2EBDD;
+    font-family: Georgia, serif;
+    color: #292929;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #592B38;
+    color: #F2EBDD;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 17px;
+    font-style: italic;
+}
+
+/* CONTEÚDO PRINCIPAL */
+
+main {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+section h2 {
+    color: #592B38;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+/* MENU DE NAVEGAÇÃO */
+
+nav {
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding: 20px;
+}
+
+nav a {
+    color: #F2EBDD;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #C9B99F;
+}
+
+
+/* DESTAQUE INICIAL */
+
+.destaque {
+    background-color: #F2EBDD;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.subtitulo {
+    color: #A77D50;
+    font-size: 13px;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+}
+
+.destaque h2 {
+    font-size: 42px;
+    color: #592B38;
+    margin-bottom: 25px;
+}
+
+.destaque p {
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+
+/* DEMAIS SEÇÕES */
+
+.conteudo {
+    padding: 70px 30px;
+    text-align: center;
+    border-top: 1px solid #C9B99F;
+}
+
+.conteudo h2 {
+    color: #592B38;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.conteudo p {
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.8;
+}

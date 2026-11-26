@@ -381,23 +381,105 @@ nav a:hover::after {
 }
 
 
-/* RESPONSIVIDADE - CELULARES */
+
+/* RESPONSIVIDADE - CELULARES E TABLETS */
 
 @media (max-width: 768px) {
 
+    /* CABEÇALHO */
+    header {
+        padding: 55px 18px;
+    }
+
+    header h1 {
+        font-size: 38px;
+    }
+
+    header p {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    /* MENU */
+    nav {
+        gap: 20px;
+        padding: 18px 12px;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    /* CONTEÚDO PRINCIPAL */
+    main {
+        margin: 25px auto;
+        padding: 10px;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+
+    section h2 {
+        font-size: 30px;
+    }
+
+    /* DESTAQUE INICIAL */
+    .destaque {
+        padding: 65px 20px;
+    }
+
+    .destaque h2 {
+        font-size: 34px;
+    }
+
+    /* DEMAIS SEÇÕES */
     .conteudo {
-        padding: 30px 20px;
+        padding: 45px 18px;
     }
 
     .conteudo h2 {
-        font-size: 24px;
+        font-size: 30px;
     }
 
+    /* SOBRE O CLUBE */
+    .sobre-clube {
+        margin: 30px auto;
+        padding: 25px 18px;
+    }
+
+    /* CONTADOR */
+    .contador {
+        padding: 50px 18px;
+    }
+
+    .contador h2 {
+        font-size: 30px;
+    }
+
+    .relogio {
+        gap: 12px;
+    }
+
+    .tempo {
+        min-width: calc(50% - 12px);
+        padding: 15px 8px;
+    }
+
+    .tempo span {
+        font-size: 34px;
+    }
+
+    /* DETALHES DOS ENCONTROS */
     .detalhes-encontro {
+        width: 100%;
         padding: 20px;
-        margin: 25px 10px;
+        margin: 25px auto;
     }
 
+    /* DEPOIMENTOS */
     .depoimentos-container {
         flex-direction: column;
         align-items: center;
@@ -405,7 +487,38 @@ nav a:hover::after {
 
     .depoimento {
         width: 100%;
+        max-width: 350px;
+    }
+
+    /* IMAGENS */
+    img {
         max-width: 100%;
+    }
+
+}
+
+/* CELULARES MENORES */
+
+@media (max-width: 480px) {
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav {
+        gap: 18px 15px;
+    }
+
+    nav a {
+        font-size: 11px;
+    }
+
+    .destaque h2 {
+        font-size: 30px;
+    }
+
+    section p {
+        font-size: 16px;
     }
 
 }

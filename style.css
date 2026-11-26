@@ -286,3 +286,126 @@ nav a:hover::after {
     letter-spacing: 8px;
     margin-top: 30px;
 }
+
+
+/* DETALHES DOS ENCONTROS */
+
+.detalhes-encontro {
+    background-color: #F5F0E8;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    border-left: 4px solid #A77D50;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 3px 4px 12px #00000015;
+}
+
+.detalhes-encontro h3 {
+    color: #6B4930;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.detalhes-encontro p {
+    color: #444444;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.detalhes-encontro strong {
+    color: #8B623D;
+}
+
+
+/* DETALHES DECORATIVOS DOS TÍTULOS */
+
+.conteudo h2::after {
+    content: "";
+    display: block;
+    width: 65px;
+    height: 2px;
+    background-color: #A77D50;
+    margin: 15px auto 0;
+}
+
+
+/* DEPOIMENTOS DOS LEITORES */
+
+.depoimentos-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.depoimento {
+    background-color: #F5F0E8;
+    max-width: 350px;
+    padding: 25px;
+    border-radius: 8px;
+    border-top: 3px solid #A77D50;
+    box-shadow: 3px 4px 12px #00000015;
+    text-align: center;
+}
+
+.depoimento p {
+    color: #444444;
+    font-size: 16px;
+    line-height: 1.7;
+    font-style: italic;
+}
+
+.depoimento span {
+    display: block;
+    color: #8B623D;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+/* ASPAS DECORATIVAS */
+
+.depoimento::before {
+    content: "“";
+    display: block;
+    color: #A77D50;
+    font-size: 55px;
+    font-family: Georgia, serif;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+
+/* RESPONSIVIDADE - CELULARES */
+
+@media (max-width: 768px) {
+
+    .conteudo {
+        padding: 30px 20px;
+    }
+
+    .conteudo h2 {
+        font-size: 24px;
+    }
+
+    .detalhes-encontro {
+        padding: 20px;
+        margin: 25px 10px;
+    }
+
+    .depoimentos-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .depoimento {
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
